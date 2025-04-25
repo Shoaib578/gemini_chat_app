@@ -2,7 +2,7 @@
 const crypto = require('crypto');
 require('dotenv').config();
 
-const secret = process.env.APP_SECRET; // Should come from process.env in real apps
+const secret = process.env.APP_SECRET; 
 const verifySignature = (req, res, next) => {
   try {
     const bodyString = JSON.stringify(req.body);
