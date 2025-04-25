@@ -90,7 +90,7 @@ npm install
 
 3.Create a .env file with:
 ```
-PORT=3000
+PORT=80
 GEMINI_API_KEY=your_gemini_api_key
 APP_SECRET=your_hmac_secret_key
 ````
